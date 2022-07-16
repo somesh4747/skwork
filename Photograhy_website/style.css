@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+}
+
+body {
+    overflow-x: hidden;
+ /* display:none ; */
+ /* -ms-overflow-style: none; */
+} 
+
+
+/* upper  content style top  */
+.upper-main-content {
+
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red ; */
+    /* background-color: blue; */
+    background: url(camera_image.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+
+/* header styling */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* upper left logo styling with text */
+.left-logo {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 500px;
+
+    height: 90px;
+    margin: 0px 0 0 50px;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.left-logo img {
+    filter: invert(1);
+
+}
+
+.left-logo h3 {
+    margin-top: 12px;
+}
+
+
+/* right navber style */
+nav {
+
+    text-decoration: none;
+    align-items: center;
+    gap: 50px;
+    /* background-color: rgb(77, 75, 75); */
+    font-size: 20px;
+    margin-top: 16px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 27px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+/* navber animations //  hover  */
+nav a:hover {
+    background-color: rgb(74, 72, 196);
+    border-radius: 50px;
+    padding: 10px;
+
+
+}
+
+/* upper-left-main-text style \\\\\\\\ top*/
+.upper-left-main-text {
+
+    width: 290px;
+    padding: 55px;
+    margin: 51px 0px 34px 30px;
+}
+
+.upper-left-main-text h2 {
+    font-size: 45px;
+}
+
+.upper-left-main-text p {
+    font-size: 18px;
+}
+
+.upper-left-main-text h4 {
+    font-size: 23px;
+}
+
+/* line styling  */
+.line1 {
+    height: 7px;
+    width: 222px;
+    border-radius: 2px;
+    background-color: #b93434;
+    margin-bottom: 19px;
+}
+
+/* middle body styling */
+.mid-body-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    width: 100vw;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 40px;
+    background-color: black;
+    background: url(mid_body_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.first-image {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+    color: white;
+
+
+
+}
+
+.first-image img {
+    border-radius: 10px;
+    /* box-shadow: 10px 8px 10px rgb(0, 0, 0); */
+    transition: all 0.3s ease-in-out;
+}
+
+.first-image img:hover {
+    box-shadow: 0px 10px 20px rgb(196, 194, 194);
+}
+
+/* middle boby line number two styling */
+.line2 {
+    height: 7px;
+    width: 300px;
+    border-radius: 2px;
+    background-color: #b93434;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
